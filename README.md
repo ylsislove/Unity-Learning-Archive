@@ -6,12 +6,16 @@ Unity 学习归档
 
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
-## 知识
+## 更新日志
 
-- [x] 自动生成文件名
-- [x] 拷贝文本到剪切板
-- [x] 生成文件名到剪切板
-- [x] 导出UnityPackage
-- [x] 打开示例文件夹
-- [x] MenuItem复用
-- [x] 自定义快捷键
+### LearningArchive 0.0.1
+
+更新于 2021.04.26，新添功能如下。
+
+- 自动导出 UnityPackage
+- 拷贝文本到剪切板
+- MenuItem 复用
+- 屏幕宽高比判断
+- Transform API 简化
+- GameObject Active 简化
+- 自定义概率函数
