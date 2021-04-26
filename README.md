@@ -1,10 +1,8 @@
 # Unity-Learning-Archive
 
-Unity 学习归档
-
-## 前言
-
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
+
+`LearningArchive 0.0.2` 之后的版本对库进行重构，划分为 Example 和 Framework。Example 为知识库，Framework 为框架库。
 
 ## 更新日志
 
@@ -12,7 +10,7 @@ Unity 学习归档
 
 更新于 2021.04.27，对库进行重构，划分为 Example 和 Framework。Example 为知识库，Framework 为框架库，主要由工具类 Utils 和管理类 Manager 组成。
 
-#### 框架新增
+#### 框架库新增
 
 - MonoBehaviourSimplify 框架核心脚本
 
@@ -20,7 +18,7 @@ Unity 学习归档
 
 - Hide 框架自定义脚本
 
-#### 知识新增
+#### 知识库新增
 
 - 自定义随机函数示例
 - Hide 脚本示例
