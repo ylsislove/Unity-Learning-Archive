@@ -6,6 +6,21 @@
 
 ## 更新日志
 
+### LearningArchive 0.0.4
+
+更新于 2021.05.23。框架库新增单例模式抽象类。修复了 AudioManager 中存在的问题。
+
+#### 框架库新增
+
+- Singleton 单例模式抽象类
+- MonoSingleton 继承 MonoBehaviour 的单例模式抽象类
+
+#### 修复 Bug
+
+- AudioManager 中 AudioListener 重复添加的问题
+
+---
+
 ### LearningArchive 0.0.3
 
 更新于 2021.05.22。框架库新增 Manager of Managers 脚本；知识库新增 Manager 脚本使用示例，和Shader 学习示例。
