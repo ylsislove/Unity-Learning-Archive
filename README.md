@@ -6,6 +6,25 @@
 
 ## 更新日志
 
+### LearningArchive 0.0.3
+
+更新于 2021.05.22。框架库新增 Manager of Managers 脚本；知识库新增 Manager 脚本使用示例，和Shader 学习示例。
+
+#### 框架库新增
+
+- MainManager 开发环境管理脚本
+- GUIManager 界面资源管理脚本
+- AudioManager 音频资源管理脚本
+- SimpleObjectPool 对象池管理脚本
+- LevelManager 场景管理脚本
+
+#### 知识库新增
+
+- 对应管理脚本的使用示例
+- Shader 基本属性、最简单的 Shader、输入结构体和输出结构体、属性块
+
+---
+
 ### LearningArchive 0.0.2
 
 更新于 2021.04.27，对库进行重构，划分为 Example 和 Framework。Example 为知识库，Framework 为框架库，主要由工具类 Utils 和管理类 Manager 组成。
