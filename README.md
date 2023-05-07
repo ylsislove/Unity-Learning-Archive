@@ -2,6 +2,19 @@
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
 ## 更新日志
+### LearningArchive 0.0.10
+更新于 2023.05.08。
+
+#### 知识库新增
+- prefab 的卸载支持示例
+- 资源异步加载支持示例
+- AssetBundle 学习加载示例
+
+#### 框架库新增
+- Res 和 ResLoader 工具类支持 prefab 卸载和异步加载
+
+---
+
 ### LearningArchive 0.0.9
 更新于 2023.05.08。
 
