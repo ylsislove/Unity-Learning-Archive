@@ -10,6 +10,22 @@
 
 #### 知识库新增
 
+- 资源管理示例 ResLoader
+- 引用计数示例 SimpleRC
+
+#### 框架库新增
+
+- ResKit 资源管理框架，包括 Res 和 ResLoader
+- SimpleRC 引用计数工具类
+
+---
+
+### LearningArchive 0.0.7
+
+更新于 2023.05.08。
+
+#### 知识库新增
+
 - 卸载 Resources.Load 加载的资源示例
 
 ---
