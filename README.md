@@ -2,9 +2,18 @@
 
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
-`LearningArchive 0.0.2` 之后的版本对库进行重构，划分为 Example 和 Framework。Example 为知识库，Framework 为框架库。
-
 ## 更新日志
+
+### LearningArchive 0.0.7
+
+更新于 2023.05.08。
+
+#### 知识库新增
+
+- 卸载 Resources.Load 加载的资源示例
+
+---
+
 
 ### LearningArchive 0.0.6
 
