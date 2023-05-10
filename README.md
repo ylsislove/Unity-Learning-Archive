@@ -2,6 +2,27 @@
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
 ## 更新日志
+### LearningArchive 0.0.12
+更新于 2023.05.11。ResKit 支持从 AssetBundle 中加载资源。支持多个 AssetBundle 平台的 Build。AssetBundle 依赖问题进行了处理。
+
+#### 知识库新增
+- AssetBundleManifestExample
+- LoadAsyncTest1 报错示例：`请不要在异步加载资源 square 时，进行 square 的同步加载`
+- LoadAsyncTest2 测试 BigTexture 的异步加载
+- LoadAsyncTest3 测试相同资源被异步加载时是否正常
+- LoadDependencyAsyncExample 测试 AssetBundle 的依赖是否正常加载
+- LoadABAssetExample 测试 AssetRes
+
+#### 框架库修改
+- 重构 AssetBundleRes、ResourcesRes 和 ResLoader，添加了加载状态判断
+
+#### 框架库新增
+- ResKitUtil 工具类负责自动拼接不同平台下的 AssetBundle 路径
+- ResFactory 工厂模式：负责创建 Res
+- AssetRes 负责加载 AssetBundle 中的资源
+
+---
+
 ### LearningArchive 0.0.11
 更新于 2023.05.11。
 
