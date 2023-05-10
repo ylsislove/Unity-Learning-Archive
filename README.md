@@ -2,6 +2,18 @@
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
 ## 更新日志
+### LearningArchive 0.0.11
+更新于 2023.05.11。
+
+#### 框架库修改
+- Res 改为抽象类
+
+#### 框架库新增
+- AssetBundleRes 负责加载 AssetBundle 资源
+- ResourcesRes 负责加载 Resources 资源
+
+---
+
 ### LearningArchive 0.0.10
 更新于 2023.05.08。
 
