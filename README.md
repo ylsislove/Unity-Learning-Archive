@@ -2,6 +2,17 @@
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
 ## 更新日志
+### LearningArchive 0.0.13
+更新于 2023.05.15。知识库进行了细分：框架示例代码（默认位置），工具示例代码（放于 Util 子文件夹下），删除学习框架过程中的学习示例。测试示例代码迁移至 Tests 目录下。
+
+#### 知识库修改
+- 细分为框架示例代码（默认位置），工具示例代码（放于 Util 子文件夹下）
+
+#### Tests 库新增
+- ResKit 相关测试示例
+
+---
+
 ### LearningArchive 0.0.12
 更新于 2023.05.11。ResKit 支持从 AssetBundle 中加载资源。支持多个 AssetBundle 平台的 Build。AssetBundle 依赖问题进行了处理。
 
