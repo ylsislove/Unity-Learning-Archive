@@ -2,6 +2,21 @@
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
 ## 更新日志
+### LearningArchive 0.0.14
+更新于 2023.06.15。实现 Simulation Mode 功能，其本质就是切换不同环境加载 API，而核心的管理功能（引用计数，ResMgr 等）不会受到影响。
+
+#### Simulation Mode 功能
+- 菜单切换 Simulation Mode
+- 编辑器模式下 AssetBundleName 和 AssetName 对应关系收集
+- 编辑器模式下 AssetBundle 依赖关系收集
+- 加载 Assets 目录下的资源
+
+#### Tests 库新增
+- LoadAssetSyncTest
+- LoadAssetAsyncTest
+
+---
+
 ### LearningArchive 0.0.13
 更新于 2023.05.15。知识库进行了细分：框架示例代码（默认位置），工具示例代码（放于 Util 子文件夹下），删除学习框架过程中的学习示例。测试示例代码迁移至 Tests 目录下。
 
