@@ -2,6 +2,20 @@
 本仓库记录自己在 Unity 中学习到的新知识，使用方法只需将 UnityPackage 包导入 Unity 项目中即可，不断完善~
 
 ## 更新日志
+### LearningArchive 0.0.15
+更新于 2023.06.24。具体更新如下：
+1. 学习凉鞋老师的QFramework框架，实现
+    1. IocContainer，负责依赖注入；BindableProperty，负责属性绑定；
+    2. 四层架构，分别是Controller层、System层、Model层和Utility层，其中四层可执行的功能（Rule）如下图所示；
+    3. 两种状态变化查询机制，分别是Command和Query，其中Command负责状态变化，Query负责状态查询；
+    4. 两种消息机制，分别是EasyEvent和TypeEventSystem，其中EasyEvent是一种简单的消息机制，TypeEventSystem是一种类型化的消息机制；
+2. 删除Tests，后续再完善测试相关的代码
+3. 删除Playground
+
+![](https://image.aayu.today/uploads/2023/06/24/202306241735845.png)
+
+---
+
 ### LearningArchive 0.0.14
 更新于 2023.06.15。实现 Simulation Mode 功能，其本质就是切换不同环境加载 API，而核心的管理功能（引用计数，ResMgr 等）不会受到影响。
 
